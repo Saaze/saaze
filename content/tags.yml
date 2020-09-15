@@ -1,0 +1,13 @@
+title: Tags
+hierarchical: false
+sort:
+  field: title
+  direction: asc
+index_route: /tags
+entry_route: /tags/{slug}
+
+fields:
+  title:
+    title: Title
+    type: string
+    required: true

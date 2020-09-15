@@ -1,0 +1,22 @@
+{
+    "name": "saaze/saaze",
+    "description": "An all-inclusive, flat-file CMS for personal websites and blogs",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilbert Pellegrom",
+            "email": "gilbert@pellegrom.me"
+        }
+    ],
+    "require": {
+        "saaze/framework": "^0.1"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

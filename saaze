@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/bootstrap.php';
+
+use Saaze\Commands\ServeCommand;
+use Symfony\Component\Console\Application;
+
+$app = new Application('Saaze');
+$app->add(new ServeCommand);
+$app->run();
