@@ -3,11 +3,4 @@
 
 require __DIR__.'/bootstrap.php';
 
-use Saaze\Commands\BuildCommand;
-use Saaze\Commands\ServeCommand;
-use Symfony\Component\Console\Application;
-
-$app = new Application('Saaze');
-$app->add(new BuildCommand);
-$app->add(new ServeCommand);
-$app->run();
+(new \Saaze\SaazeCli())->run();
