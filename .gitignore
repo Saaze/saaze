@@ -1,5 +1,4 @@
-/build/*
-!/build/.gitkeep
+/build
 /cache/*
 !/cache/.gitkeep
 /vendor
