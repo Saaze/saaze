@@ -1,6 +1,6 @@
 # Saaze
 
-Saaze is an all-inclusive, flat-file CMS for personal websites and blogs.
+Saaze is an all-inclusive, flat-file CMS for simple websites and blogs.
 
 WIP
 
