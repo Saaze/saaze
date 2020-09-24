@@ -1,6 +1,6 @@
 {
     "name": "saaze/saaze",
-    "description": "An all-inclusive, flat-file CMS for personal websites and blogs",
+    "description": "An all-inclusive, flat-file CMS for simple websites and blogs",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "saaze/framework": "^0.1"
+        "saaze/core": "*"
     },
     "config": {
         "optimize-autoloader": true,
