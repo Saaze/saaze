@@ -1,27 +1,6 @@
 title: Blog
-hierarchical: false
 sort:
   field: date
   direction: desc
 index_route: /blog
 entry_route: /blog/{slug}
-
-fields:
-  title:
-    title: Title
-    type: string
-    required: true
-  content:
-    title: Title
-    type: markdown
-
-meta_fields:
-  date:
-    title: Published At
-    type: date
-    required: true
-  tags:
-    title: Tags
-    type: relationship
-    relation: tags
-    relation_type: multiple
