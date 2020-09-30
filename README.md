@@ -16,7 +16,7 @@ WordPress is a great CMS but it can become bloated and a maintenance nightmare f
 
 ## Requirements
 
-* PHP 7+
+* PHP 7.3+
 
 ## Installation
 
