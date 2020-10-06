@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
 
-require __DIR__.'/bootstrap.php';
+require __DIR__ . '/vendor/autoload.php';
 
-(new \Saaze\SaazeCli())->run();
+(new \Saaze\SaazeCli(__DIR__))->run();
