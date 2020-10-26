@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "saaze/core": "*"
+        "saaze/core": "^0.1"
     },
     "config": {
         "optimize-autoloader": true,
