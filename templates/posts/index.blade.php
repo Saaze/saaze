@@ -1,23 +1,23 @@
 @extends('layout')
 
-@section('title', "{$collection['title']} (Page {$entries['currentPage']})")
+@section('title', "{$collection->title} (Page {$pagination->currentPage})")
 
 @section('content')
-@foreach ($entries['entries'] as $entry)
+@foreach ($pagination->entries as $entry)
 <div class="mb-10 sm:mb-20">
-    <h2><a href="{{ $entry['url'] }}">{{ $entry['title'] }}</a></h2>
+    <h2><a href="{{ $entry->url }}">{{ $entry->title }}</a></h2>
     <p class="text-gray-600">
-        {{ date('jS F Y', strtotime($entry['date'])) }}
+        {{ date('jS F Y', strtotime($entry->date)) }}
     </p>
-    <p>{!! $entry['excerpt'] !!}</p>
+    <p>{!! $entry->excerpt !!}</p>
 </div>
 @endforeach
 <div class="flex justify-between my-20">
-    @if ($entries['nextUrl'])
-    <a href="{{ $entries['nextUrl'] }}">&larr; Older</a>
+    @if ($pagination->nextUrl)
+    <a href="{{ $pagination->nextUrl }}">&larr; Older</a>
     @endif
-    @if ($entries['prevUrl'])
-    <a href="{{ $entries['prevUrl'] }}">Newer &rarr;</a>
+    @if ($pagination->prevUrl)
+    <a href="{{ $pagination->prevUrl }}">Newer &rarr;</a>
     @endif
 </div>
 @endsection
