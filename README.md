@@ -1,3 +1,8 @@
+<p>
+<a href="https://packagist.org/packages/saaze/saaze"><img src="https://img.shields.io/packagist/v/Saaze/saaze" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/saaze/saaze"><img src="https://img.shields.io/packagist/l/Saaze/saaze" alt="License"></a>
+</p>
+
 # Saaze
 
 Saaze is an all-inclusive, flat-file CMS for simple websites and blogs. It's not designed to be a replacement for great CMS's (e.g. WordPress, Statamic etc.), rather it's designed to be a smaller, simpler alternative.
